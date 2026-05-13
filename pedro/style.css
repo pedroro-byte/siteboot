@@ -1,0 +1,66 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Georgia, serif;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #5c3d2e;
+}
+
+.banner {
+  background-color: #7a4f3a;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+}
+
+.banner p {
+  font-size: 1.1rem;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.preco {
+  color: #7a4f3a;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.btn-loja {
+  background-color: #7a4f3a;
+  color: white;
+  border: none;
+}
+
+.btn-loja:hover {
+  background-color: #5c3d2e;
+  color: white;
+}
+
+.form-control:focus {
+  border-color: #7a4f3a;
+  box-shadow: 0 0 0 0.2rem rgba(122, 79, 58, 0.25);
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #5c3d2e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
